@@ -1,0 +1,231 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="23" name="allObjects">
+    <object class="IBCarbonButton" id="192">
+      <ostype name="controlSignature">SANE</ostype>
+      <int name="controlID">3000</int>
+      <ostype name="command">PREV</ostype>
+      <string name="title">Previous</string>
+      <string name="viewFrame">452 347 104 20 </string>
+      <string name="bounds">347 452 367 556 </string>
+    </object>
+    <object class="IBCarbonButton" id="188">
+      <ostype name="controlSignature">SANE</ostype>
+      <int name="controlID">3001</int>
+      <ostype name="command">NEXT</ostype>
+      <string name="title">Next</string>
+      <string name="viewFrame">568 347 102 20 </string>
+      <string name="bounds">347 568 367 670 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="288">
+      <string name="viewFrame">0 0 376 184 </string>
+      <array count="5" name="subviews">
+        <object class="IBCarbonPicture" id="293">
+          <string name="viewFrame">660 202 46 21 </string>
+          <string name="bounds">202 660 223 706 </string>
+        </object>
+        <object class="IBCarbonBevelButton" id="294">
+          <boolean name="rounded">TRUE</boolean>
+          <string name="viewFrame">589 192 71 41 </string>
+          <string name="bounds">192 589 233 660 </string>
+        </object>
+        <object class="IBCarbonPicture" id="303">
+          <int name="contentResID">128</int>
+          <string name="viewFrame">0 0 376 184 </string>
+          <string name="bounds">0 0 184 376 </string>
+        </object>
+        <object class="IBCarbonBevelButton" id="305">
+          <int name="contentResID">2</int>
+          <int name="textPlacement">3</int>
+          <string name="viewFrame">40 90 46 39 </string>
+          <string name="bounds">90 40 129 86 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="306">
+          <ostype name="controlSignature">SANE</ostype>
+          <int name="controlID">4000</int>
+          <int name="fontStyle">-2</int>
+          <string name="title">Text changed dynamically in program</string>
+          <string name="foreColor">65535 65535 65535 </string>
+          <string name="viewFrame">121 90 215 74 </string>
+          <string name="bounds">90 121 164 336 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 184 376 </string>
+    </object>
+    <object class="IBCarbonWindow" id="287">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="metal">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="themeBrush">1</int>
+      <string name="title">Alert</string>
+      <reference name="rootControl" idRef="288"/>
+      <string name="windowRect">351 588 535 964 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="themeBrush">53</int>
+      <int name="windowPosition">1</int>
+      <string name="title">FaderPort 1.3.8 Updater</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="viewFrame">0 0 696 387 </string>
+        <array count="5" name="subviews">
+          <object class="IBCarbonPicture" id="200">
+            <int name="controlID">3007</int>
+            <int name="contentResID">128</int>
+            <string name="viewFrame">0 0 696 387 </string>
+            <string name="bounds">0 0 387 696 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="269">
+            <ostype name="controlSignature">SANE</ostype>
+            <int name="controlID">3002</int>
+            <int name="fontStyle">-1</int>
+            <string name="title">Text changed dynamically in program</string>
+            <string name="foreColor">65535 65535 65535 </string>
+            <string name="viewFrame">136 190 438 77 </string>
+            <string name="bounds">190 136 267 574 </string>
+          </object>
+          <object class="IBCarbonProgressBar" id="193">
+            <ostype name="controlSignature">SANE</ostype>
+            <int name="controlID">3003</int>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="indeterminate">FALSE</boolean>
+            <string name="viewFrame">135 232 422 19 </string>
+            <string name="bounds">232 135 251 557 </string>
+          </object>
+          <reference idRef="188"/>
+          <reference idRef="192"/>
+        </array>
+        <string name="bounds">0 0 387 696 </string>
+      </object>
+      <string name="windowRect">357 316 744 1012 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonMenu" id="238">
+      <string name="name">_NSAppleMenu</string>
+      <string name="title">FaderPort 1.3.5 Updater</string>
+      <array count="2" name="items">
+        <object class="IBCarbonMenuItem" id="247">
+          <string name="title">FaderPort 1.3.8 Updater</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">abou</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="261">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <reference idRef="305"/>
+    <reference idRef="193"/>
+    <reference idRef="167"/>
+    <reference idRef="269"/>
+    <object class="IBCarbonWindow" id="280">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="metal">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="themeBrush">1</int>
+      <string name="title">About FaderPort 1.3.8 Updater</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="281">
+        <string name="viewFrame">0 0 371 148 </string>
+        <array count="2" name="subviews">
+          <object class="IBCarbonPicture" id="282">
+            <int name="contentResID">128</int>
+            <string name="viewFrame">10 12 93 100 </string>
+            <string name="bounds">12 10 112 103 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="284">
+            <ostype name="controlSignature">SANE</ostype>
+            <int name="controlID">3050</int>
+            <string name="title">Copyright Presonus, Inc. 2007.</string>
+            <int name="justification">1</int>
+            <string name="viewFrame">116 54 264 51 </string>
+            <string name="bounds">54 116 105 380 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 148 371 </string>
+      </object>
+      <string name="windowRect">393 688 541 1059 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="294"/>
+    <reference idRef="306"/>
+    <reference idRef="281"/>
+    <reference idRef="293"/>
+    <reference idRef="282"/>
+    <reference idRef="261"/>
+    <reference idRef="200"/>
+    <object class="IBCarbonMenuItem" id="246">
+      <string name="title">FaderPort 1.3.8 Updater</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <reference name="submenu" idRef="238"/>
+    </object>
+    <reference idRef="247"/>
+    <reference idRef="303"/>
+    <object class="IBCarbonMenu" id="249">
+      <string name="name">_NSMainMenu</string>
+      <string name="title">main</string>
+      <array count="1" name="items">
+        <reference idRef="246"/>
+      </array>
+    </object>
+    <reference idRef="284"/>
+  </array>
+  <array count="23" name="allParents">
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="287"/>
+    <reference idRef="1"/>
+    <reference idRef="1"/>
+    <reference idRef="246"/>
+    <reference idRef="288"/>
+    <reference idRef="167"/>
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+    <reference idRef="288"/>
+    <reference idRef="288"/>
+    <reference idRef="280"/>
+    <reference idRef="288"/>
+    <reference idRef="281"/>
+    <reference idRef="238"/>
+    <reference idRef="167"/>
+    <reference idRef="249"/>
+    <reference idRef="238"/>
+    <reference idRef="288"/>
+    <reference idRef="1"/>
+    <reference idRef="281"/>
+  </array>
+  <dictionary count="5" name="nameTable">
+    <string>AboutWindow</string>
+    <reference idRef="280"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>MainWindow</string>
+    <reference idRef="166"/>
+    <string>MenuBar</string>
+    <reference idRef="249"/>
+    <string>MessageWindow</string>
+    <reference idRef="287"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">307</unsigned_int>
+</object>
